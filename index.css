@@ -42,7 +42,7 @@ h1 {
   }
   
   #game img {
-    transition: opacity 0.3s ease;
+    transition: opacity 0.55s ease;
   }
   
   #game img:hover {

@@ -23,7 +23,8 @@ const urls = [
     "https://i.ibb.co/9thfVhB/fruit-hjkl.jpg",
     "https://i.ibb.co/YtTfqvD/fruit-dcnj.jpg",
     "https://i.ibb.co/CVwKM8Z/fruit-ecuh.jpg",
-    "https://i.ibb.co/ccNyKX0/fruit-uzxc.jpg"];
+    "https://i.ibb.co/ccNyKX0/fruit-uzxc.jpg"
+];
 
     const randomUrls = shuffle(urls);
 
