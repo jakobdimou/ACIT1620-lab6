@@ -23,7 +23,19 @@ const urls = [
     "https://i.ibb.co/9thfVhB/fruit-hjkl.jpg",
     "https://i.ibb.co/YtTfqvD/fruit-dcnj.jpg",
     "https://i.ibb.co/CVwKM8Z/fruit-ecuh.jpg",
-    "https://i.ibb.co/ccNyKX0/fruit-uzxc.jpg"]
+    "https://i.ibb.co/ccNyKX0/fruit-uzxc.jpg"];
+
+    const randomUrls = shuffle(urls);
+
+    const images = document.querySelectorAll(".card img");
+
+
+images.forEach((image, index) => {
+    image.src = randomUrls[index];
+});
+
+const h1Element = document.querySelector('h1');
+h1Element.textContent += '!';
 /*
     Step 1:
     - Create an array named 'urls' of eight strings containing the following values:

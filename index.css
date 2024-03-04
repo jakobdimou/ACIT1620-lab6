@@ -24,7 +24,7 @@ h1 {
     height: 100%;
 }
 .card {
-    background-color: rgb(213, 151, 135);
+    background-color: rgb(202, 112, 179);
     border-radius: 15px;
     box-shadow: 2px 3px 4px rgb(0 0 0 / 30%);
     cursor: pointer;
@@ -34,6 +34,20 @@ h1 {
     border-radius: 15px;
 }
 
+#game {
+    display: grid;
+    grid-template-columns: repeat(3, 128px);
+    grid-template-rows: repeat(3, 128px);
+    gap: 16px;
+  }
+  
+  #game img {
+    transition: opacity 0.3s ease;
+  }
+  
+  #game img:hover {
+    opacity: 1; 
+  }
 /* 
     Add styles as necessary to accomplish the following: 
 
