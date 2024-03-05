@@ -38,7 +38,7 @@ for (const image of images) {
 
 
 const h1Element = document.querySelector('h1');
-h1Element.textContent += '!';
+h1Element.textContent += "!";
 /*
     Step 1:
     - Create an array named 'urls' of eight strings containing the following values:
