@@ -28,12 +28,14 @@ const urls = [
 
     const randomUrls = shuffle(urls);
 
-    const images = document.querySelectorAll(".card img");
+    const images = document.querySelectorAll(".card > img");
 
 
-images.forEach((image, index) => {
-    image.src = randomUrls[index];
-});
+for (const image of images) {
+    (image.src = randomUrls.pop());
+}
+
+
 
 const h1Element = document.querySelector('h1');
 h1Element.textContent += '!';
